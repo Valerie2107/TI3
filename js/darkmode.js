@@ -1,0 +1,21 @@
+function toggleDark(){
+    isDark = localStorage.getItem("locStor_dark");
+    if(isDark==='true'){    //les booléens sont automatiquement changés en string par localstorage
+        localStorage.setItem("locStor_dark",'false');
+        body.classList.remove("dark");
+        console.log("darkmode chargé");
+    }else{
+        localStorage.setItem("locStor_dark",'true');
+        body.classList.add("dark");
+        console.log("lightmode chargé");
+    }
+}
+
+let body = document.querySelector("body");
+let isDark = localStorage.getItem("locStor_dark"); /*le user a déjà mis qq chose dans le local storage?*/
+let darkModeButton = document.querySelector("#dark_mode");
+darkModeButton.addEventListener("click",toggleDark);
+
+if(isDark==='true') { //les booléens sont automatiquement changés en string par localstorage (JSON??)
+    body.classList.add("dark");
+}
