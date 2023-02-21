@@ -1,0 +1,1 @@
+future page admin
