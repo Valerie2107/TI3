@@ -1,10 +1,11 @@
 <nav>
-    <a href="?vue=accueil">Accueil</a>
-    <a href="?vue=admin">Admin</a>
-    <a href="?vue=cv">Curriculum</a>
-    <a href="?vue=liens">Liens</a>
-    <a href="?vue=contact">Contact</a>
-    <a href="?vue=projets">Projets</a>
-    <a href="?vue=travaux">Travaux</a>
-    <a href="?vue=tutos">Tutos</a>
+    <a href="?views=accueil">Accueil</a>
+    <a href="?views=admin">Admin</a>
+    <a href="?views=cv">Curriculum</a>
+    <a href="?views=liens">Liens</a>
+    <a href="?views=contact">Contact</a>
+    <a href="?views=projets">Projets</a>
+    <a href="?views=travaux">Travaux</a>
+    <a href="?views=eam">Éducation Aux Médias</a>
+    <a href="?views=tutos">Tutos</a>
 </nav>

@@ -14,7 +14,7 @@ try {
         throw new Exception("La connexion à la base de données a échoué.");
     }
     //var_dump($conn);
-    echo "Connected successfully";
+  //  echo "Connected successfully";
 } catch (Exception $e) {
     // Gestion des erreurs
     die("Erreur : " . $e->getMessage());

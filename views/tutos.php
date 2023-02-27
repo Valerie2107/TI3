@@ -7,13 +7,20 @@
     <title>Tutos</title>
 </head>
 <body>
-    
-
-    <p>
-        Source du tutoriel: <a href="https://medium.com/@Codeible/pure-css-3d-rotating-cube-art-gallery-with-only-css-3cdbdfa35e83">3d-rotating-cube</a>
-    </p>
-
-
+    <header>
+    <?php
+        include "../views/include/nav.inc.php"
+        ?>
+    </header>
+    <main>
+        <p>
+            Source du tutoriel: <a href="https://medium.com/@Codeible/pure-css-3d-rotating-cube-art-gallery-with-only-css-3cdbdfa35e83">3d-rotating-cube</a>
+        </p>
+    </main>
+   
+    <?php 
+        include "../views/include/footer.inc.php";
+    ?>
 
 </body>
 </html>

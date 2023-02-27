@@ -13,7 +13,7 @@
         ?>
     </header>
     <main>
-        mes projets
+        français quoi
     </main>
     
     <?php 

@@ -7,6 +7,18 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+    <?php
+        include "../views/include/nav.inc.php"
+        ?>
+    </header>
+    <main>
+        page contact?
+    </main>
+   
+    <?php 
+        include "../views/include/footer.inc.php";
+    ?>
     
 </body>
 </html>

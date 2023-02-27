@@ -7,40 +7,40 @@ require_once "../config.php";
 require_once "../model/sqlConnect.php";
 
 
-
 // mon controleur frontal
-if(isset($_GET['vue'])){
+if(isset($_GET['views'])){
 
-    switch($_GET['vue']){
+    switch($_GET['views']){
         case 'accueil':
-            include "views/accueil.php";
+            include "../views/accueil.php";
             break;
         case 'admin':
-            include "views/admin.php";
+            include "../views/admin.php";
             break;
         case 'contact':
-            include "views/contact.php";
+            include "../views/contact.php";
             break;
         case 'cv':
-            include "views/cv.php";
+            include "../views/cv.php";
             break;
         case 'liens':
-            include "views/liens.php";
+            include "../views/liens.php";
             break;
         case 'projets':
-            include "views/projets.php";
+            include "../views/projets.php";
             break;
         case 'travaux':
-                include "views/travaux.php";
+                include "../views/travaux.php";
                 break;
+        case 'eam':
+            include "../views/eam.php";
+            break;
         case 'tutos':
-            include "views/tutos.php";
+            include "../views/tutos.php";
             break;
         default:
-            include_once "views/accueil.php";
+            include_once "../views/accueil.php";
     }
 }else{
-        include_once "views/accueil.php";
-    }
-
-?>
+   include_once "../views/accueil.php";
+}
