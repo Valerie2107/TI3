@@ -1,6 +1,6 @@
 <nav>
     <a href="?views=accueil">Accueil</a>
-    <a href="?views=admin">Admin</a>
+  <!--  <a href="?views=admin">Admin</a>   se trouve dans le footer-->
     <a href="?views=cv">Curriculum</a>
     <a href="?views=liens">Liens</a>
     <a href="?views=contact">Contact</a>

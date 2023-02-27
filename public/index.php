@@ -14,7 +14,7 @@ if(isset($_GET['views'])){
         case 'accueil':
             include "../views/accueil.php";
             break;
-        case 'admin':
+       case 'admin':     // le lien se trouve dans le footer
             include "../views/admin.php";
             break;
         case 'contact':
