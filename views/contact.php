@@ -13,7 +13,20 @@
         ?>
     </header>
     <main>
-        page contact?
+        <form action="" method="post" name="">
+            <label for="nom">
+                <input type="text">
+            </label>
+            <label for="prénom">
+                <input type="text">
+            </label>
+            <label for="adresse e-mail">
+                <input type="email">
+            </label>
+            <textarea name="" id="" cols="30" rows="10">
+                
+            </textarea>
+        </form>
     </main>
    
     <?php 
