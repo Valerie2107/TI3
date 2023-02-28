@@ -2,25 +2,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include_once "include/avg_head.inc.php";  ?>
+
     <title>Administration</title>
-    <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
     <header>
-        <?php
-        include "../views/include/nav.inc.php"
-        ?>
+        <?php   include "../views/include/nav.inc.php" ?>
+        
     </header>
     <main>
-    future page admin
+        <form method="post" action="connexion:php" name="login"><br>
+            <label for="nom">Login: </label><input type="texte" name="nom" id="nom" required><br>
+            <label for="pwd">Mot de passe: </label><input type="password" name="pass" id="pass" required><br>
+            <input type="submit" value="Connexion">
+        </form>
     </main>
     
-    <?php 
-        include "../views/include/footer.inc.php";
-    ?>
+    <?php  include "../views/include/footer.inc.php"; ?>
     
 </body>
 </html>
