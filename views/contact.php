@@ -3,7 +3,7 @@
 <head>
     <?php include_once "include/avg_head.inc.php";  ?>
 
-    <title>Administration</title>
+    <title>Admin</title>
 </head>
 <body>
     <header>
@@ -18,7 +18,7 @@
             <br>
             <label for="prenom">Prénom: </label><input type="text" name="prenom" id="prenom" placeholder="Entrez ici votre prénom">
             <br>
-            <label for="mail">E-mail: </label><input type="email" name="mail" id="mail" placeholder="entrez votre adresse e-mail">
+            <label for="mail">E-mail: </label><input type="email" name="mail" id="mail" placeholder="Entrez votre adresse e-mail">
             <br>
             <textarea name="" id="" cols="80" rows="10" placeholder="Raison de votre message"></textarea>
             <br>
@@ -26,9 +26,7 @@
         </form>
     </main>
    
-    <?php 
-        include "../views/include/footer.inc.php";
-    ?>
+    <?php include "../views/include/footer.inc.php"; ?>
     
 </body>
 </html>
