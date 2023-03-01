@@ -3,13 +3,16 @@
 <head>
     <?php include_once "include/avg_head.inc.php";  ?>
 
+    <link rel="stylesheet" href="../public/css/form.css">
     <title>Admin</title>
 </head>
 <body>
     <header>
-    <?php
-        include "../views/include/nav.inc.php"
-        ?>
+        <h1>Contact</h1>
+        
+            <?php include "../views/include/nav.inc.php" ?>
+
+        
     </header>
     <main>
         <form method="post" action="../model/formContact.php" name="contact_form">
@@ -24,7 +27,7 @@
             <br>
             <input type="submit" value="Envoyer"> 
             <div class="empty"></div>
-            <p>Ces champs sont nécessaires afin que je puisse vous répondre au mieux le cas échéant.</p>
+            <p class="star">*Ces champs sont nécessaires afin que je puisse vous répondre au mieux le cas échéant.</p>
         </form>
     </main>
    

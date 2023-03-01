@@ -3,13 +3,13 @@
 <head>
     <?php include_once "include/avg_head.inc.php";  ?>
 
-    <title>Administration</title>ylesheet" href="public/css/style.css">
+    <title>Administration</title>
 </head>
 <body>
     <header>
-    <?php
-        include "../views/include/nav.inc.php"
-        ?>
+        <h1>Curriculum</h1>
+    <?php include "../views/include/nav.inc.php" ?>
+    
     </header>
     <main>
     page CV

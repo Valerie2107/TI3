@@ -6,4 +6,5 @@
     <link rel="stylesheet" href="../public/css/btt.css">
 
     <script src="js/btt.js" defer></script>
-    <script src="darmode.js" defer></script>
+    <script src="js/darmode.js" defer></script>
+    <script src="js/burger.js" defer></script>

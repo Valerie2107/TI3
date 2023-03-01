@@ -4,12 +4,16 @@
 <head>
     <?php include_once "include/avg_head.inc.php";  ?>
 
+    <link rel="stylesheet" href="../public/css/form.css">
     <title>Administration</title>
 </head>
 <body>
     <header>
-        <?php   include "../views/include/nav.inc.php" ?>
-        
+        <h1>Admin</h1>
+    
+            <?php include "../views/include/nav.inc.php" ?>
+
+
     </header>
     <main>
         <form method="post" action="../model/formAdmin.php" name="login"><br>

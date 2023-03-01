@@ -6,9 +6,8 @@
     <title>Administration</title></head>
 <body>
     <header>
-    <?php
-        include "../views/include/nav.inc.php"
-        ?>
+        <h1>Liens Utiles</h1>
+    <?php  include "../views/include/nav.inc.php"  ?>
     </header>
     <main>
         J’ai évidemment suivit des tutos en plus des cours. Voici une liste non exhaustive des sites, blogs et autres chaînes YouTube que j’ai consultés afin de m’améliorer.

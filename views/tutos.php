@@ -7,9 +7,8 @@
 </head>
 <body>
     <header>
-    <?php
-        include "../views/include/nav.inc.php"
-        ?>
+        <h1>Tutoriels</h1>
+    <?php include "../views/include/nav.inc.php"   ?>
     </header>
     <main>
         <p>
