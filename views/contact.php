@@ -12,17 +12,19 @@
         ?>
     </header>
     <main>
-        <form method="post" action="" name="form1">
-            <!--champ de texte avec son label. Le for du label doit avoir la même valeur que l'id de l'élément du formulaire, ne pas faire un for "name" pour un id "mail" -->
-            <label for="nom">Nom: </label><input type="text" name="nom" id="nom" placeholder="Entrez ici votre nom"> 
+        <form method="post" action="../model/formContact.php" name="contact_form">
+            <label for="name">Nom*: </label><input type="text" name="name" id="name" placeholder="Indiquez ici votre nom" required> 
             <br>
-            <label for="prenom">Prénom: </label><input type="text" name="prenom" id="prenom" placeholder="Entrez ici votre prénom">
+            <label for="first_name">Prénom: </label><input type="text" name="first_name" id="first_name" placeholder="Indiquez ici votre prénom">
             <br>
-            <label for="mail">E-mail: </label><input type="email" name="mail" id="mail" placeholder="Entrez votre adresse e-mail">
+            <label for="mail">E-mail*: </label><input type="email" name="mail" id="mail" placeholder="Indiquez votre e-mail" required>
             <br>
-            <textarea name="" id="" cols="80" rows="10" placeholder="Raison de votre message"></textarea>
+            <label for="text">Raison de votre message*: </label><br>
+            <textarea name="txt" id="txt" cols="80" rows="10" placeholder="Message" required></textarea>
             <br>
             <input type="submit" value="Envoyer"> 
+            <div class="empty"></div>
+            <p>Ces champs sont nécessaires afin que je puisse vous répondre au mieux le cas échéant.</p>
         </form>
     </main>
    
