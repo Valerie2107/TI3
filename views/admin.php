@@ -17,9 +17,17 @@
     </header>
     <main>
         <form method="post" action="../model/formAdmin.php" name="login"><br>
-            <label for="name">Login*: </label><input type="texte" name="name" id="name" required><br>
-            <label for="pwd">Mot de passe*: </label><input type="password" name="pwd" id="pwd" required><br>
-            <input type="submit" value="Connexion">
+            <div class="contact">
+                <label for="name">Login*: </label><input class="padding" type="texte" name="name" id="name" required>
+            </div>
+            <br>
+            <div class="contact">
+                <label for="pwd">Mot de passe*: </label><input class="padding" type="password" name="pwd" id="pwd" required>
+            </div>
+            <br>
+            <div class="center_input">
+                <input class="align" type="submit" value="Connexion">
+            </div>
         </form>
     </main>
     

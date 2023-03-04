@@ -1,3 +1,27 @@
 .star{
     font-size: small;
 }
+form{
+    margin:0 auto;
+    max-width: 100ch;
+    background-color: rgb(181, 247, 247);
+    padding: 3em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+}
+.padding{
+    padding:0.5em 1em;
+    border-radius:5px;
+}
+.center_input{
+    text-align: center;
+}
+.align{
+    padding: 0.5em 3em;
+    border-radius:5px;
+}

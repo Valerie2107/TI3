@@ -4,7 +4,7 @@
     <?php include_once "include/avg_head.inc.php";  ?>
 
     <link rel="stylesheet" href="../public/css/form.css">
-    <title>Admin</title>
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -16,18 +16,22 @@
     </header>
     <main>
         <form method="post" action="../model/formContact.php" name="contact_form">
-            <label for="name">Nom*: </label><input type="text" name="name" id="name" placeholder="Indiquez ici votre nom" required> 
+           <div class="contact">
+                <label for="name">Nom*: </label>
+                <input class="padding" type="text" name="name" id="name" placeholder="Indiquez ici votre nom" required>
+            </div>
             <br>
-            <label for="first_name">Prénom: </label><input type="text" name="first_name" id="first_name" placeholder="Indiquez ici votre prénom">
+            <div class="contact"><label for="first_name">Prénom: </label><input class="padding" type="text" name="first_name" id="first_name" placeholder="Indiquez ici votre prénom"></div>
             <br>
-            <label for="mail">E-mail*: </label><input type="email" name="mail" id="mail" placeholder="Indiquez votre e-mail" required>
+            <div class="contact"><label for="mail">E-mail*: </label><input class="padding" type="email" name="mail" id="mail" placeholder="Indiquez votre e-mail" required></div>
             <br>
-            <label for="text">Raison de votre message*: </label><br>
-            <textarea name="txt" id="txt" cols="80" rows="10" placeholder="Message" required></textarea>
+            <div class="contact"><label for="text">Raison de votre message*: </label><textarea class="padding" name="txt" id="txt" cols="80" rows="10" placeholder="Message" required></textarea></div>
             <br>
-            <input type="submit" value="Envoyer"> 
-            <div class="empty"></div>
-            <p class="star">*Ces champs sont nécessaires afin que je puisse vous répondre au mieux le cas échéant.</p>
+            <div class="center_input">
+            <input  class="align" type="submit" value="Envoyer"> 
+                <div class="empty"></div>
+                <p class="star align">*Ces champs sont nécessaires afin que, le cas échéant, je puisse vous répondre au mieux.</p>
+            </div>
         </form>
     </main>
    
