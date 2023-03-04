@@ -6,11 +6,7 @@
     <title>Accueil</title>
 </head>
 <body>
-    <header>
-        <?php
-            include "../views/include/nav.inc.php"
-        ?>
-    </header>
+    <?php include "../views/include/header.inc.php"; ?>
     <main>
         ceci est la page accueil.php
     </main>
