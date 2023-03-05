@@ -22,7 +22,9 @@ header{
     text-align: center;
     margin: 1em auto;
 }
-
+header div img{
+    width: 50px;
+}
 
 footer{
     width: 100%;
@@ -31,4 +33,24 @@ footer{
     justify-content: space-around;
     margin: 0 auto;
     
+}
+
+/*-----------dark-mode------------*/
+#dark_mode{   
+    position: fixed;
+    right: 1.5em;
+    top: 1.5em;
+}
+#dark_mode img{
+    width: 50px;
+}
+body.dark{
+    background-color: #060606;
+    color: lightgrey;
+}
+body:not(.dark) .visibledark_on{    /*switch de l'imge*/
+    display: none;
+}
+body.dark .visibledark_off{
+    display: none;
 }

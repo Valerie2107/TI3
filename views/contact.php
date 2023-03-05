@@ -10,7 +10,7 @@
     <header>
         <h1>Contact</h1>
         
-            <?php include "../views/include/nav.inc.php" ?>
+        <?php include "../views/include/header.inc.php"; ?>
 
         
     </header>
