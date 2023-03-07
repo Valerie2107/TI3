@@ -8,5 +8,5 @@
 
 
 <script src="js/btt.js" defer></script>
-<script src="js/darmode.js" defer></script>
+<script src="js/darkmode.js" defer></script>
 <script src="js/burger.js" defer></script>
