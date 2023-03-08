@@ -1,7 +1,7 @@
 <header>
         <div id="dark_mode">
-            <img class="visibledark_off" src="../public/images/dark-mode.png" alt="dark mode">
-            <img class="visibledark_on" src="../public/images/light-mode.png" alt="light-mode">
+            <img class="visibledark_off" src="../images/dark-mode.png" alt="dark mode">
+            <img class="visibledark_on" src="../images/light-mode.png" alt="light-mode">
         </div>
         
 

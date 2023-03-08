@@ -3,7 +3,7 @@
 <head>
     <?php include_once "include/avg_head.inc.php";  ?>
 
-    <link rel="stylesheet" href="../public/css/form.css">
+    <link rel="stylesheet" href="../css/form.css">
     <title>Contact</title>
 </head>
 <body>
