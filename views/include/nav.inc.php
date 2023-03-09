@@ -2,7 +2,6 @@
   <nav>
     <a href="?views=accueil">Accueil</a>
     <a href="?views=projets">Projets</a>
-    <a href="?views=travaux">Travaux</a>
     <!--  <a href="?views=eam">Éducation Aux Médias</a>  -->
     <a href="?views=tutos">Tutoriels</a>
     <a href="?views=liens">Liens</a>

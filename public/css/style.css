@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&family=Kalam:wght@300;400&family=Kumbh+Sans:wght@200&family=Noto+Sans+Symbols:wght@100;200&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -20,7 +23,7 @@ main{
 }
 header{
     text-align: center;
-    margin: 1em auto;
+    margin: 2em auto;
 }
 header div img{
     width: 50px;
@@ -33,24 +36,26 @@ footer{
     justify-content: space-around;
     margin: 0 auto;
 }
+
+/*---------- Bt contact----------------*/
 .contactButton{  /*in the footer*/
-    padding: 1em 3em;
     margin: 1.5em;
     box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
     cursor: pointer;
     border-radius: 10px;
-    border: 1px solid black;
-
+    border: 1px solid black; 
 }
 .contactButton a{
+    padding: 1em 3em;
+    display: block;
     text-decoration: none;
 }
 
 /*-----------darkmode------------*/
 #dark_mode{   
     position: fixed;
-    right: 1.5em;
-    top: 1.5em;
+    right: 2em;
+    top: 2em;
 }
 #dark_mode img{
     width: 50px;

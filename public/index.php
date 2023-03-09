@@ -9,6 +9,8 @@ require_once "../model/sqlConnect.php";
 #dependencies
 require_once "../model/modelLink.php";
 
+$dataLink = dataLien($conn);
+
 
 // mon controleur frontal
 if(isset($_GET['views'])){
@@ -27,8 +29,6 @@ if(isset($_GET['views'])){
             include "../views/cv.php";
             break;
         case 'liens':
-            $titre = "liens";
-            $liensDB = DBlink($db);
             include "../views/liens.php";
             break;
         case 'projets':

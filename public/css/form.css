@@ -4,9 +4,9 @@
 form{
     margin:0 auto;
     max-width: 100ch;
-    background-color: rgb(181, 247, 247);
+  /*  background-color: rgb(181, 247, 247);*/
     padding: 3em;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
 }
 .contact{
