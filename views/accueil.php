@@ -6,6 +6,9 @@
     <title>Accueil</title>
 </head>
 <body>
+    
+
+
     <?php include "../views/include/header.inc.php"; ?>
     <main>
         ceci est la page accueil.php
@@ -21,6 +24,7 @@
 
 
     <?php include "../views/include/footer.inc.php"; ?>
-    
+
+      
 </body>
 </html>

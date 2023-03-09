@@ -8,8 +8,11 @@ require_once "../model/sqlConnect.php";
 
 #dependencies
 require_once "../model/modelLink.php";
+require_once "../model/modelWorks.php";
+
 
 $dataLink = dataLien($conn);
+$dataWorks = dataTravaux($conn);
 
 
 // mon controleur frontal
