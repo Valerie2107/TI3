@@ -56,6 +56,7 @@ footer{
     padding: 1em 3em;
     display: block;
     text-decoration: none;
+    color: black;
 }
 
 /*-----------darkmode------------*/
@@ -70,6 +71,12 @@ footer{
 body.dark{
     background-color: #060606;
     color: lightgrey;
+}
+.dark .contactButton a, .dark input, .dark form, .dark .contactButton{
+    color: lightgrey;
+}
+.dark input, .dark form, .dark .contactButton{
+    border: 1px solid rgb(95, 94, 94);
 }
 body:not(.dark) .visibledark_on{    /*img switch*/
     display: none;
