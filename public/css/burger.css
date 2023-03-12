@@ -1,14 +1,93 @@
 /*------------burger menu---------*/
-#burger{
-    width: 44px;    /*definition des 2 tailles, 44px ideal pour touch"*/
-    height: 44px;
+#menu{
     position: fixed;
     top:30px;
     left:30px;
-    background-color: red;
+    width: 44px;    /*definition des 2 tailles, 44px ideal pour touch"*/
+    height: 44px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
+    transition: all 0.5s ease-in-out;
+}
+#menu.active{   /*quand le menu est déroulé*/
+    width: auto;
+    height: auto;
+    padding: 40px;
+    line-height: 1.5em;
+}
+#menu nav{
+    display: none;  /*ne doit pas être visible quand nav fermée - N'EXISTE PAS DANS LE DOM*/
+}
+#menu nav a{
+    text-decoration: none;
+    color: black;
+}
+#menu.active nav{   /*la nav quand le menu est déroulé*/
+    display: flex;
+    flex-direction: column;
+}
+#menu #burger{
+    z-index: 1000;
+    cursor: pointer;
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.viande{
+    background: green;
+    height: 4px;
+    width: 30px;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /*pour ramener le centre vers le centre*/
+}
+#menu.active .viande{
+    background: transparent;   /*la ligne horizontale disparaitra pour laisser place aux diagonales*/
+    /*si probleme opacity, tester transparence background*/
+}
+/*------burger-levels----*/
+.viande::after, 
+.viande::before{    /*pseudo-éléments liés à .viande - les tranches de pain quoi*/
+    content: "";    /*obligatoire pour le pseudo-élément*/
+    display: block;  /*sinon ne s'affiche pas*/
+    height: 4px;
+    width: 30px;
+    background: green;
+    position: absolute;  /*par rapport au div .viande */
+    top: 50%;
+    left: 50%;
+    border-radius: 3px;
+    transform-origin: center;
+    transition: transform 0.5s ease-in-out;
+}
+.viande::after{
+    transform: translate(-50%, -220%);
+}
+.viande::before{
+    transform: translate(-50%, 120%);
+}
+#menu.active .viande::after{
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+#menu.active .viande::before{
+    transform: translate(-50%, -50%) rotate(-45deg);
+}   
+/*
+#burger{
+    width: 44px;    
+    height: 44px;
+    top:30px;
+    left:30px;
+    background-color: lightgrey;
     border-radius: 10px;
     box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
     cursor: pointer;
+    border: 2px dashed yellow;
 }
 #burger.active{
     width: auto;
@@ -26,4 +105,4 @@
 #burger nav a{
     text-decoration: none;
     color: black;
-}
+}*/
