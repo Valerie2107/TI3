@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    min-height: 100%;
+    display: flex;
+    color: rgb(43, 42, 42);
+}
+body{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/*slider*/
+
+#photos{
+    position: relative;
+    width: 800px;
+    height: 360px;
+    overflow: hidden; /*pour ne pas voir ce qui dépasse de la zone prédéfinie, ici 360px par photos*/
+    margin: 20px auto;
+  }
+  .picture{
+    width: 800px;
+  }
+  
+  #slideshow li{
+    display: inline;
+  }
+  #slideshow{
+    position: absolute;
+    top: 0;  /*pour aligner en haut à gauche dans mon exercice*/
+    left: 0;
+    width: 4800px;   /*6photos de 800px -- 6x800px=4800px*/
+    margin: 0;
+    padding: 0;
+    animation-name: slider;
+    animation-duration: 30s;
+    animation-iteration-count: infinite; /*jamais de temps d'arrêt*/
+    animation-timing-function: linear;
+  }
+  @keyframes slider {
+    0%  {left: 0px;}
+    10% {left: 0px;}    /* pour qu'il fasse un temps d'arrêt*/
+    20% {left: -800px;}
+    30% {left: -800px;}     /* pour qu'il fasse un temps d'arrêt*/
+    40% {left: -1600px;}
+    50% {left: -1600px;}    /* pour qu'il fasse un temps d'arrêt*/
+    60% {left: -2400px;}
+    70% {left: -2400px;}    /* pour qu'il fasse un temps d'arrêt*/
+    80% {left: -3200px;}
+    90% {left: -3200px;}
+    100% {left: -4000px;}
+  }
