@@ -9,12 +9,15 @@
     border-radius: 10px;
     box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
     transition: all 0.8s ease-in-out;
+    font-size: 0;
 }
 #menu.active{   /*quand le menu est déroulé*/
     width: auto;
     height: auto;
     padding: 40px;
     line-height: 1.5em;
+    font-size: 1em;
+   
 }
 #menu nav{
     display: none;  /*ne doit pas être visible quand nav fermée - N'EXISTE PAS DANS LE DOM*/
