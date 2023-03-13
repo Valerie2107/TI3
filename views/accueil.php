@@ -11,16 +11,9 @@
 
     <?php include "../views/include/header.inc.php"; ?>
     <main>
-        ceci est la page accueil.php
+        
     </main>
-    
-    <?php
-        foreach ($dataLink as $contenu)
-    ?>
-
-    <img src="<?=$contenu['image']?>" alt="">
-
-    <p><?=$contenu['description']?> </p>
+   
 
 
     <?php include "../views/include/footer.inc.php"; ?>

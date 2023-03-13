@@ -12,18 +12,14 @@
     <main>
         J’ai évidemment suivit des tutos en plus des cours. Voici une liste non exhaustive des sites, blogs et autres chaînes YouTube que j’ai consultés afin de m’améliorer.
         <div class="empty"></div>
-        <?php foreach ($liensDB as $item) : ?>
-            <h3>
-                <?php $item['titre'] ?>
-            </h3>
-            <p>
-                <?php $item['description'] ?>
-            </p>
-            <a href="<?php $item['url'] ?>" >lien</a>
-
         <?php
-        endforeach;
-        ?>
+        foreach ($dataLink as $contenu)
+    ?>
+  
+
+    <img src="<?=$contenu['image']?>" alt="">
+
+    <p><?=$contenu['description']?> </p>
     </main>
     
     <?php 
