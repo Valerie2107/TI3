@@ -4,7 +4,7 @@
 form{
     margin:0 auto;
     max-width: 100ch;
-  /*  background-color: rgb(181, 247, 247);*/
+    background-color: rgba(181, 247, 247, 0.3);
     padding: 3em;
     border: 1px solid #2e2e2e59;
     border-radius: 10px;
@@ -24,4 +24,10 @@ form{
 .align{
     padding: 0.5em 3em;
     border-radius:5px;
+}
+.notif{
+    font-size: 5em;
+    font-weight: bold;
+    color: rgb(250, 238, 252);
+    text-align: center;
 }
