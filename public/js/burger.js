@@ -1,8 +1,9 @@
 let burgerButton = document.querySelector("#burger");
+let divMenu = document.querySelector("#menu");
 
 burgerButton.addEventListener("click", openBurger);
 
 function openBurger(){
     console.log("tadaaaa");
-    burgerButton.classList.toggle("active");
+    divMenu.classList.toggle("active");
 }

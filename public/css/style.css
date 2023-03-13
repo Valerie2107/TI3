@@ -67,6 +67,12 @@ body.dark{
     background: linear-gradient(to bottom right, rgb(92, 125, 233), rgba(7, 14, 24));
     color: rgb(246, 246, 252);
 }
+.dark .contactButton a, .dark input, .dark form, .dark .contactButton{
+    color: lightgrey;
+}
+.dark input, .dark form, .dark .contactButton{
+    border: 1px solid rgb(95, 94, 94);
+}
 body:not(.dark) .visibledark_on{    /*img switch*/
     display: none;
 }
