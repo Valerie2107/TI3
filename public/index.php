@@ -3,7 +3,7 @@
 //paramètre sécurité
 require_once "../config.php";
 
-//connexion DB  --> faut-il once ou pas ?
+//connexion DB  
 require_once "../model/sqlConnect.php";
 
 #dependencies

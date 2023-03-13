@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background: linear-gradient(to bottom right, rgb(146, 163, 243), rgb(64, 96, 202));
+    background: linear-gradient(to bottom right, rgb(22, 22, 207), pink);
   }
 main{
     flex-grow: 1;

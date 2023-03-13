@@ -16,8 +16,8 @@
         foreach ($dataLink as $contenu)
     ?>
   
-
-    <img src="<?=$contenu['image']?>" alt="">
+    <p><?=['titre']?></p>
+    <br>
 
     <p><?=$contenu['description']?> </p>
     </main>
