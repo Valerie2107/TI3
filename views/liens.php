@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <?php include_once "include/avg_head.inc.php";  ?>
-
     <title>Administration</title>
 </head>
 <body>
-   
     <header>
         <h1>Liens Utiles</h1>
         <?php include "../views/include/header.inc.php"; ?>

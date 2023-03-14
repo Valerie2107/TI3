@@ -4,7 +4,6 @@
     font-size: 5em;
     color: rgb(250, 238, 252);
     text-align: center;
-  
 }
 
 #myself{
@@ -25,12 +24,12 @@
     background-color: #f2f2f2;
     color: #444;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
+    padding: 20px;
+    width: 80%;
     border: none;
     outline: none;
     transition: 0.4s;
-
+    margin: 0 auto;
 }
 .accordeon-header:hover {
     background-color: #ddd;
@@ -39,9 +38,11 @@
     margin-right: 10px;
 }
 .accordeon-content {
-    padding: 0 18px;
+    padding: 0 20px;
     background-color: white;
     max-height: 0;
+    width: 80%;
+    margin: 0 auto;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 } 

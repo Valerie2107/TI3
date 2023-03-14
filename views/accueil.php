@@ -23,12 +23,13 @@
                 <div class="accordeon-header">
                     Pourquoi m'engager ?
                 </div>
-                    <div class="accordeon-content">Jamais à l'abri d'un jeu de mot facile, je suis avant tout quelqu'un de sérieux et d'investi dans son travail.</div>
+                    <div class="accordeon-content">Jamais à cours de jeux de mots faciles, je suis avant tout quelqu'un de sérieux et d'investi dans son travail.</div>
                 <div class="accordeon-header">
                     Quel est mon parcours ?
                 </div>
-                    <div class="accordeon-content">Si mon revirement vers le web-dev est récent bien que mûrement réfléchi, mon parcours professionnel commence assez tôt  et touche à tout ce qui est contact clients. <br>
-                        J'ai donc beaucoup d'expériences professionnelles tant en contact direct que par call-center et comme gestionnaire de dossiers. J'ai détaillé un peu plus mes expériences dans la section curriculum, et je me ferai un plaisir de vous conter cela lors d'un entretien.</div>
+                    <div class="accordeon-content">Si mon revirement vers le web-dev est récent, bien que mûrement réfléchi, mon parcours professionnel a commencé assez tôt.<br>
+                    J'ai donc pu accumulé beaucoup d'expérience et je désire maintenant la compléter dans le développement web.<br>
+                    J'ai détaillé un peu plus mes expériences dans la section <a href="?views=cv"> curriculum</a>, et je me ferai un plaisir de vous conter cela lors d'un entretien.</div>
                 <div class="accordeon-header">
                     Comment me contacter ?
                 </div>
