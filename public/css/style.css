@@ -17,6 +17,10 @@ body{
     flex-grow: 1;
     background: linear-gradient(to bottom right, rgb(22, 22, 207), pink);
   }
+h1, h2, h3{
+    font-family: 'Marhey', cursive;
+    color: rgb(250, 238, 252);
+}
 main{
     flex-grow: 1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

@@ -12,7 +12,7 @@
     
     </header>
     <main>
-    page CV
+   pour plus tard
     </main>
     
     <?php 
