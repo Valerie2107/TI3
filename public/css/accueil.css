@@ -4,27 +4,31 @@
     font-size: 5em;
     color: rgb(250, 238, 252);
     text-align: center;
+  
 }
 
+#myself{
+    cursor: pointer;
+    display: grid;
+    margin: auto;
+}
 #accordeon-container {
     overflow: hidden;
     max-height: 0;
+    cursor: pointer;
+    text-align: center;
 }
-
 .accordeon-header {
     font-family: 'Marhey', cursive;
     font-size: 1em;
     text-align: center;
-    color: rgb(250, 238, 252);
     background-color: #f2f2f2;
     color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
     outline: none;
-    font-size: 15px;
     transition: 0.4s;
 
 }

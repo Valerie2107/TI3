@@ -40,12 +40,6 @@ if(isset($_GET['views'])){
         case 'projets':
             include "../views/projets.php";
             break;
-        case 'travaux':
-                include "../views/travaux.php";
-                break;
-        case 'eam':
-            include "../views/eam.php";
-            break;
         case 'tutos':
             include "../views/tutos.php";
             break;

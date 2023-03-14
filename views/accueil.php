@@ -13,7 +13,8 @@
     <?php include "../views/include/header.inc.php"; ?>
     <main>
         <p class="accueil">
-            <span id="myself">Valérie VH</span>
+            <span id="myself">Valérie VH <br>
+            Portfolio</span></p> 
              <div id="accordeon-container">
                     <div class="accordeon-header">
                         Qui suis-je ?
@@ -31,11 +32,11 @@
                     <div class="accordeon-header">
                         Comment me contacter ?
                     </div>
-                    <div class="accordeon-content">En suivant ce lien ou en cliquant sur le bouton contact en bas de cette page.</div>
+                    <div class="accordeon-content">En suivant <a href="?views=contact">ce lien</a> ou en cliquant sur le bouton contact en bas de page.</div>
                 </div>    
             </p>
           
-            <p class="accueil">Portfolio</p>    
+               
         
     </main>
    
