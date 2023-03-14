@@ -13,6 +13,11 @@
     <main>
         <p>
             Source du tutoriel: <a href="https://medium.com/@Codeible/pure-css-3d-rotating-cube-art-gallery-with-only-css-3cdbdfa35e83">3d-rotating-cube</a>
+
+            <br>
+
+            <a href="https://www.codeur.com/tuto/html/bloc-accordeon-html/#creer_un_bloc_accordeon_en_html" >bloc accordeon</a>
+
         </p>
     </main>
    

@@ -15,7 +15,7 @@
         
     </header>
     <main>
-        <form method="post" action="../model/modelFormContact.php" name="contact_form">
+        <form method="post" action="./?views=confirmation" name="contact_form">
            <div class="contact">
                 <label for="name">Nom*: </label>
                 <input class="padding" type="text" name="name" id="name" placeholder="Indiquez ici votre nom" required>

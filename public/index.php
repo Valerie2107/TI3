@@ -28,6 +28,9 @@ if(isset($_GET['views'])){
         case 'contact':
             include "../views/contact.php";
             break;
+        case 'confirmation':
+            include "../views/confirmation.php";
+            break;
         case 'cv':
             include "../views/cv.php";
             break;

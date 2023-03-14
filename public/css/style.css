@@ -49,6 +49,7 @@ footer{
     cursor: pointer;
     border-radius: 10px;
     border: 1px solid #2e2e2e59; 
+    background-color: lightgrey;
 }
 .contactButton a{
     padding: 1em 3em;

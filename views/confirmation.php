@@ -16,7 +16,7 @@
         
     </header>
     <main>
-
+        <?php include "../model/modelFormContact.php"; ?>
         <p class="notif">Votre message a bien été envoyé.</p>
         
     </main>
